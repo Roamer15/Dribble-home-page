@@ -152,3 +152,112 @@ select {
 .btn {
   text-align: center;
 }
+
+.article-one {
+ background-image: url(../assets/greeting.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-bottom: 3rem;
+}
+
+.chat {
+  display: none;
+}
+
+.sell-with-us {
+  padding: 4rem 0 1rem;
+  margin: 0 1rem;
+  font-weight: lighter;
+
+  ul {
+    align-items: center;
+    list-style: none;
+
+    li {
+      background-color: #f7f7f760;
+      margin: 2rem 0;
+      padding: 1rem 0.9rem;
+      border-radius: 4px;
+    }
+  }
+
+  i {
+    padding-right: 0.7rem;
+    font-size: 1.8rem;
+  }
+}
+
+.news {
+  text-align: center;
+  background-color: var(--secondary-color-one);
+}
+
+.articles {
+  display: inline;
+  padding: 1rem 0.7rem;
+
+  img {
+    height: 20vh;
+  }
+}
+
+.box {
+  margin: 0 1rem 1rem;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: left;
+  box-shadow: 0 0.7px 0.7px #8d8c8c;
+  padding-bottom: 0.9rem;
+
+  p {
+    padding-bottom: 4rem;
+    padding-left: 0.9rem;
+  }
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: 0.6rem 0.9rem;
+
+  img {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+.read-more {
+  color: var(--primary-color);
+  font-family: var(--tertiary-font);
+  padding-left: 0.9rem;
+}
+
+.date {
+  color: #d1cccc;
+  font-size: 0.7rem;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+
+.contact-info {
+  text-align: center;
+  grid-column: 2 / span 3;
+}
+
+.res-nigga {
+  grid-column: 1 / span 2;
+  background-image: url(../assets/assure.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  img {
+    width: 100%;
+  }
+}
