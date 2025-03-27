@@ -88,7 +88,8 @@ nav {
 
 .intro {
   margin-bottom: 2rem;
-  background-image: linear-gradient(115deg, #000000f3, transparent),
+  background-image:
+    linear-gradient(115deg, #000000f3, transparent),
     url("../assets/hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -379,6 +380,7 @@ footer {
   nav {
     display: flex;
     align-items: center;
+
     ul {
       text-decoration: none;
       display: flex;
@@ -404,7 +406,8 @@ footer {
   .bottom-header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: linear-gradient(115deg, #000000f3, transparent),
+    background-image:
+      linear-gradient(115deg, #000000f3, transparent),
       url("../assets/hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -512,7 +515,6 @@ footer {
 
   .contact {
     padding-top: 2rem;
-    /* align-items: center; */
     position: relative;
   }
 
@@ -559,6 +561,7 @@ footer {
   .social {
     text-align: left;
   }
+
   .icon-text {
     display: flex;
     gap: 2rem;
